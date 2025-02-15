@@ -40,7 +40,7 @@ Binary has park marry base worth arch.
 
 Binary has park word.
 
-The word is binary.
+The word is "Binary".
 
 Binary has park word benefit.
 

@@ -20,26 +20,10 @@ Binary has park word.
 
 The word is "Binary".
 
-Binary has park word benefit.
-
-Binary has park word benefit arch.
-
-Binary has park word benefit arch worth.
-
 Binary has park word worth.
 
-Binary has park word worth arch.
+Binary has park word value.
 
-Binary has park word marry worth.
+Binary has park word benefit.
 
-Binary has park word marry worth arch.
-
-Binary has park word marry benefit.
-
-Binary has park word marry benefit arch.
-
-Binary has park word marry benefit arch worth.
-
-Binary has park word marry arch.
-
-Binary has park word marry arch worth.
+Binary has park word marry.

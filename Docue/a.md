@@ -4,11 +4,11 @@ Binary is binary module list written in Class Lang.
 
 Binary is park binary.
 
-Binary has park worth. 
+Binary has park worth.
 
 Binary has park value.
 
-Binary has park benefit. 
+Binary has park benefit.
 
 Binary has park marry.
 

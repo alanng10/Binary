@@ -12,9 +12,9 @@ Binary has park benefit.
 
 Binary has park marry.
 
-Binary has park arch. 
+Binary has park arch.
 
-Binary has park arch worth. 
+Binary has park arch worth.
 
 Binary has park word.
 

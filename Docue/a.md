@@ -2,7 +2,7 @@
 
 Binary is binary module list written in Class Lang.
 
-Binary is park binary. 
+Binary is park binary.
 
 Binary has park worth.
 

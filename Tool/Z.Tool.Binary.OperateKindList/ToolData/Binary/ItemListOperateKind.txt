@@ -5,6 +5,8 @@ While
 Are
 Gone
 Label
+BlockStart
+BlockEnd
 Call
 IntValue
 Var

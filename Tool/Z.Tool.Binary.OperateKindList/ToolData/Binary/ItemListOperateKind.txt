@@ -7,6 +7,7 @@ Gone
 Label
 Call
 IntValue
+Var
 IntMemory
 MidMemory
 ShortMemory

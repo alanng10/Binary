@@ -5,16 +5,16 @@ public class Gen : SourceGen
     public override bool Init()
     {
         base.Init();
-        this.Module = this.S("Class.Infra");
-        this.ClassName = this.S("CountList");
+        this.Module = this.S("Binary.Infra");
+        this.ClassName = this.S("OperateKindList");
         this.BaseClassName = this.S("Any");
         this.AnyClassName = this.S("Any");
-        this.ItemClassName = this.S("Count");
+        this.ItemClassName = this.S("OperateKind");
         this.ArrayClassName = this.S("Array");
         this.Export = true;
-        this.ItemListFileName = this.S("../../../Class/Out/net8.0/ToolData/Saber/ItemListCount.txt");
-        this.AddMethodFileName = this.S("ToolData/Class/AddMaideCount.txt");
-        this.OutputFilePath = this.S("../../Module/Class.Infra/CountList.cl");
+        this.ItemListFileName = this.S("ToolData/Binary/ItemListOperateKind.txt");
+        this.AddMethodFileName = this.S("ToolData/Binary/AddMaideOperateKind.txt");
+        this.OutputFilePath = this.S("../../Module/Binary.Infra/OperateKindList.cl");
         return true;
     }
 }

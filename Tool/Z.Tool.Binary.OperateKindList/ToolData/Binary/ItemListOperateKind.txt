@@ -19,6 +19,8 @@ IntMark
 MidMark
 ShortMark
 ByteMark
+RefVar
+RefMaide
 Same
 Less
 And

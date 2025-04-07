@@ -1,4 +1,8 @@
 Var
+Return
+Inf
+While
+Are
 Same
 Less
 And

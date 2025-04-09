@@ -1,0 +1,3 @@
+class CreateCountOperate : CreateOperate
+{
+}

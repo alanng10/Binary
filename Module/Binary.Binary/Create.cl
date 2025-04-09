@@ -44,34 +44,31 @@ class Create : Any
 
     maide prusate Bool OperateAdd(var Int dest, var Int lite, var Int rite)
     {
-        this.Kind(this.OperateKindList.Add);
-        this.Int(dest);
-        this.Int(lite);
-        this.Int(rite);
+        this.OperateTwoOperand(this.OperateKindList.Add, dest, lite, rite);
         return true;
     }
 
     maide prusate Bool OperateSub(var Int dest, var Int lite, var Int rite)
     {
-        this.Kind(this.OperateKindList.Sub);
-        this.Int(dest);
-        this.Int(lite);
-        this.Int(rite);
+        this.OperateTwoOperand(this.OperateKindList.Sub, dest, lite, rite);
         return true;
     }
 
     maide prusate Bool OperateMul(var Int dest, var Int lite, var Int rite)
     {
-        this.Kind(this.OperateKindList.Mul);
-        this.Int(dest);
-        this.Int(lite);
-        this.Int(rite);
+        this.OperateTwoOperand(this.OperateKindList.Mul, dest, lite, rite);
         return true;
     }
 
     maide prusate Bool OperateDiv(var Int dest, var Int lite, var Int rite)
     {
-        this.Kind(this.OperateKindList.Div);
+        this.OperateTwoOperand(this.OperateKindList.Div, dest, lite, rite);
+        return true;
+    }
+
+    maide prusate Bool OperateTwoOperand(var OperateKind kind, var Int dest, var Int lite, var Int rite)
+    {
+        this.Kind(kind);
         this.Int(dest);
         this.Int(lite);
         this.Int(rite);

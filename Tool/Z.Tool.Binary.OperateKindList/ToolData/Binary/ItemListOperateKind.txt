@@ -1,38 +1,38 @@
-Refer 1
-ReferData 2
-Return 1
+Refer
+ReferData
+Return
 Inf
 While
-Gone 1
-Label 1
+Gone
+Label
 BlockStart
 BlockEnd
 Call
-IntValue 2
-Var 2
-IntMemory 2
-MidMemory 2
-ShortMemory 2
-ByteMemory 2
-VarMark 2
-IntMark 2
-MidMark 2
-ShortMark 2
-ByteMark 2
-RefVar 2
+IntValue
+Var
+IntMemory
+MidMemory
+ShortMemory
+ByteMemory
+VarMark
+IntMark
+MidMark
+ShortMark
+ByteMark
+RefVar
 RefMaide
-Same 3
-Less 3
-And 3
-Orn 3
-Not 2
-Add 3
-Sub 3
-Mul 3
-Div 3
-SignLess 3
-SignMul 3
-SignDiv 3
-BitLite 3
-BitRite 3
-BitSignRite 3
+Same
+Less
+And
+Orn
+Not
+Add
+Sub
+Mul
+Div
+SignLess
+SignMul
+SignDiv
+BitLite
+BitRite
+BitSignRite

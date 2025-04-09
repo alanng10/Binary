@@ -3,12 +3,12 @@ ReferData 2
 Return 1
 Inf
 While
-Gone
-Label
+Gone 1
+Label 1
 BlockStart
 BlockEnd
 Call
-IntValue
+IntValue 2
 Var 2
 IntMemory 2
 MidMemory 2

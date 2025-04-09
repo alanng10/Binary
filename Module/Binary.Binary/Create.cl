@@ -34,11 +34,26 @@ class Create : Any
     field prusate CreateSetOperate SetOperate { get { return data; } set { data : value; } }
     field precate OperateKindList OperateKindList { get { return data; } set { data : value; } }
 
-    maide prusate Bool ExecuteVar(var Int dest, var Int index)
+    maide prusate Bool OperateVar(var Int dest, var Int index)
     {
-        this.Byte(this.OperateKindList.Var);
+        this.Kind(this.OperateKindList.Var);
         this.Int(dest);
         this.Int(index);
+        return true;
+    }
+
+    maide prusate Bool OperateAdd(var Int dest, var Int lite, var Int rite)
+    {
+        this.Kind(this.OperateKindList.Add);
+        this.Int(dest);
+        this.Int(lite);
+        this.Int(rite);
+        return true;
+    }
+
+    maide private Bool Kind(var OperateKind kind)
+    {
+        this.Byte(kind.Index);
         return true;
     }
 

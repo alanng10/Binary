@@ -32,7 +32,7 @@ class Create : Any
     field prusate CreateCountOperate CountOperate { get { return data; } set { data : value; } }
     field prusate CreateSetOperate SetOperate { get { return data; } set { data : value; } }
 
-    maide prusate Bool ExecuteVar(var Int index)
+    maide prusate Bool ExecuteVar(var Int dest, var Int index)
     {
 
     }

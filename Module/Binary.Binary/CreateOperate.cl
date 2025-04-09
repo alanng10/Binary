@@ -6,6 +6,10 @@ class CreateOperate : Any
     {
     }
 
+    maide prusate Bool ExecuteInt(var Int value)
+    {
+    }
+
     maide prusate Bool ExecuteStart(var Int value)
     {
     }

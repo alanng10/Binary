@@ -3,6 +3,8 @@ class Create : Any
     maide prusate Bool Init()
     {
         base.Init();
+        this.OperateKindList : share OperateKindList;
+
         this.CountOperate : this.CreateCountOperate();
         this.SetOperate : this.CreateSetOperate();
         return true;
@@ -26,15 +28,28 @@ class Create : Any
         return a;
     }
 
-
     field prusate CreateArg Arg { get { return data; } set { data : value; } }
     field prusate CreateOperate Operate { get { return data; } set { data : value; } }
     field prusate CreateCountOperate CountOperate { get { return data; } set { data : value; } }
     field prusate CreateSetOperate SetOperate { get { return data; } set { data : value; } }
+    field precate OperateKindList OperateKindList { get { return data; } set { data : value; } }
 
     maide prusate Bool ExecuteVar(var Int dest, var Int index)
     {
+        this.Byte(this.OperateKindList.Var);
+        this.Int(dest);
+        this.Int(index);
+        return true;
+    }
 
+    maide prusate Bool String(var Text text)
+    {
+    }
+
+    maide prusate Bool Int(var Int value)
+    {
+        this.Operate.ExecuteInt(value);
+        return true;
     }
 
     maide prusate Bool Byte(var Int value)

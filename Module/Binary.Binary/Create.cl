@@ -75,6 +75,14 @@ class Create : Any
         return true;
     }
 
+    maide prusate Bool OperateOneOperand(var OperateKind kind, var Int dest, var Int value)
+    {
+        this.Kind(kind);
+        this.Int(dest);
+        this.Int(value);
+        return true;
+    }
+
     maide private Bool Kind(var OperateKind kind)
     {
         this.Byte(kind.Index);

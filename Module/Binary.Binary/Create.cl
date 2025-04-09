@@ -42,6 +42,24 @@ class Create : Any
         return true;
     }
 
+    maide prusate Bool OperateAnd(var Int dest, var Int lite, var Int rite)
+    {
+        this.OperateTwoOperand(this.OperateKindList.And, dest, lite, rite);
+        return true;
+    }
+
+    maide prusate Bool OperateOrn(var Int dest, var Int lite, var Int rite)
+    {
+        this.OperateTwoOperand(this.OperateKindList.Orn, dest, lite, rite);
+        return true;
+    }
+
+    maide prusate Bool OperateNot(var Int dest, var Int value)
+    {
+        this.OperateOneOperand(this.OperateKindList.Not, dest, value);
+        return true;
+    }
+
     maide prusate Bool OperateAdd(var Int dest, var Int lite, var Int rite)
     {
         this.OperateTwoOperand(this.OperateKindList.Add, dest, lite, rite);

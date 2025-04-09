@@ -50,6 +50,8 @@ Binary has park kind arch marry.
 
 Binary has park kind arch land.
 
+Binary has park execute.
+
 Binary has park word.
 
 The word is "Binary".

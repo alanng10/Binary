@@ -26,8 +26,20 @@ class Create : Any
         return a;
     }
 
+
     field prusate CreateArg Arg { get { return data; } set { data : value; } }
     field prusate CreateOperate Operate { get { return data; } set { data : value; } }
     field prusate CreateCountOperate CountOperate { get { return data; } set { data : value; } }
     field prusate CreateSetOperate SetOperate { get { return data; } set { data : value; } }
+
+    maide prusate Bool ExecuteVar(var Int index)
+    {
+
+    }
+
+    maide prusate Bool Byte(var Int value)
+    {
+        this.Operate.ExecuteByte(value);
+        return true;
+    }
 }

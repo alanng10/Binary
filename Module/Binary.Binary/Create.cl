@@ -51,6 +51,33 @@ class Create : Any
         return true;
     }
 
+    maide prusate Bool OperateSub(var Int dest, var Int lite, var Int rite)
+    {
+        this.Kind(this.OperateKindList.Sub);
+        this.Int(dest);
+        this.Int(lite);
+        this.Int(rite);
+        return true;
+    }
+
+    maide prusate Bool OperateMul(var Int dest, var Int lite, var Int rite)
+    {
+        this.Kind(this.OperateKindList.Mul);
+        this.Int(dest);
+        this.Int(lite);
+        this.Int(rite);
+        return true;
+    }
+
+    maide prusate Bool OperateDiv(var Int dest, var Int lite, var Int rite)
+    {
+        this.Kind(this.OperateKindList.Div);
+        this.Int(dest);
+        this.Int(lite);
+        this.Int(rite);
+        return true;
+    }
+
     maide private Bool Kind(var OperateKind kind)
     {
         this.Byte(kind.Index);

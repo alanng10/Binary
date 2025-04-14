@@ -7,8 +7,6 @@ class OperateKindList : Any
         this.Count : this.Array.Count;
         this.Index : 0;
 
-        this.Refer : this.AddItem();
-        this.ReferData : this.AddItem();
         this.Return : this.AddItem();
         this.Inf : this.AddItem();
         this.While : this.AddItem();
@@ -48,8 +46,6 @@ class OperateKindList : Any
         return true;
     }
 
-    field prusate OperateKind Refer { get { return data; } set { data : value; } }
-    field prusate OperateKind ReferData { get { return data; } set { data : value; } }
     field prusate OperateKind Return { get { return data; } set { data : value; } }
     field prusate OperateKind Inf { get { return data; } set { data : value; } }
     field prusate OperateKind While { get { return data; } set { data : value; } }
@@ -108,7 +104,7 @@ class OperateKindList : Any
 
     field precate Array Array { get { return data; } set { data : value; } }
 
-    field precate Int ArrayCount { get { return 38; } set { } }
+    field precate Int ArrayCount { get { return 36; } set { } }
 
     field prusate Int Count { get { return data; } set { data : value; } }
 

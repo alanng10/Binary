@@ -67,3 +67,5 @@ Binary has park word marry.
 Binary has park word land.
 
 Binary is did.
+
+Binary has major.
